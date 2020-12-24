@@ -1,0 +1,18 @@
+
+.dialogItems .active{
+  color: red
+}
+.messages{
+  padding: 10px;
+
+}
+
+.message{
+  border: 1px dashed brown;
+  padding-bottom: 15px;
+  line-height: 20px;
+  display: grid;
+  text-align: justify;
+  padding-left: 13px;
+}
+
