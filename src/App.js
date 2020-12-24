@@ -65,7 +65,7 @@ let AppContainer = compose(
 	connect(mapStateToProps, { initializeApp }))(App);
 
 const SamuraiJSApp = (props) => {
-	return <BrowserRouter>
+	return <BrowserRouter basename={process.env.PUBLIC_URL}>
 		{/* <React.StrictMode> */}
 		<Provider store={store}>
 			<AppContainer />
